@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="login.css">
+  <title>Login form</title>
+</head>
+<body>
+  <section id="sec12"> 
+    <div id="wrapper">
+      <form  action="Food Hut.html" onsubmit="return valid()">
+        <h1>Login</h1>
+        <div id="input-box">
+          <input type="text" placeholder="Username" id="bx1">
+          <span id="er1"></span>
+        </div>
+        <div id="input-box">
+          <input type="password" placeholder="Password" id="bx2">
+          <span id="er2"></span>
+        </div>
+        <div id="check-box">
+          <input type="checkbox" id="chk" onclick="showpass()"> show password?
+          <input type="checkbox" id="rem"> Remember me?
+        </div>
+        <input type="submit" value="Login" id="btn">
+      </form>
+    </div>
+  </section>
+  <script src="login.js">
+  </script>   
+</body>
+</html>

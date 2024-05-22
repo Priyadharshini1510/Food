@@ -1,0 +1,293 @@
+*{
+    width:99%;
+    font-family:Cascadia Mono SemiLight;
+    color: white;
+    transition: 3s;
+}
+
+#nave1, ul{
+    list-style-type: none;
+    display: flex;
+    width: 97.5%;
+    height: 40px;
+    justify-content: center;
+    background-color: rgb(51, 51,51);
+    position: fixed;
+    padding-left:4px;
+}
+#nave1,a{
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+ 
+    margin-top: 0px;
+}
+#nave1,a:hover{
+    color: red;
+}
+#home{
+    width:100%;
+    height: 600px;
+    text-align: center;
+    background-image: url(main.jpg);
+    background-attachment: fixed;
+    
+}
+#heading1{
+    margin-top: 0px;
+    padding-top:100px;
+    font-size: 7em;
+}
+#para1{
+    font-size: 4em;
+}
+#but1{
+    width:220px;
+    height: 50px;
+    font-size: 2em;
+    background-color: red;
+    position:absolute;
+    margin-left: 500px;
+    text-align: center;
+}
+#about{
+    width:100%;
+    height:900px;
+    background-color: rgb(51, 51,51);
+    
+}
+#img1{
+    width: 50%;
+    height: 900px;
+    float:left;
+}
+#div2{
+    padding-top: 5px;
+    padding-right: 500px;
+    font-size:19px ;
+    text-align: center;
+}
+#div3{
+    font-size: 36px;
+}
+#gallary{
+    width:100%;
+    height:1158px;
+    background-color: rgb(51, 51,51);
+}
+#gall1{
+    text-align: center;
+    font-size: 90px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#div4{
+    width:25.5%;
+    height: 250px;
+
+}
+#div5,#div6,#div7{
+    display: flex;
+}
+#booktable{
+    width: 100%;
+    height: 500px;
+    background-image: url(book-table-img\ -\ Copy.jpg);
+    background-position: fixed;
+}#booktable{
+    padding-top: 100px;
+    font-size: 90px;
+    text-align: center;
+}
+.tablebook1{
+    width: 22%;
+    height: 40px;
+    margin-top:100px;
+    background: transparent;
+    border: 1px solid white;
+}
+#table1{
+    font-size: 20px;
+    color: red;
+}
+.tablebook1::placeholder{
+    color: rgb(255,255,255);
+}
+#tablebooking{
+    font-size: 16px;
+}
+#findtbl{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    background-color: red;
+    margin-top: 60px;
+}
+#blog{
+    width:100%;
+    height:890px;
+    background-color: rgb(51, 51,51);
+}
+#bloogdiv1{
+    font-size: 70px; 
+    text-align: center; 
+    padding-top: 30px; 
+}
+#foodsblogdiv{
+    margin-left:16px;
+}
+.bloogancor1{
+    width:90px;
+    height: 50px;
+    font-size:30px;
+    display: inline-flex;
+    margin-left: 350px;
+    margin-top:25px;
+    margin-bottom:30px;
+
+    
+}
+#review{
+    width:100%;
+    height: 470px;
+    background-color: rgb(51, 51,51);
+
+}
+#reviewdiv1{
+    width: 60px;
+    height: 40px;
+    font-size: 90px;
+    margin-left:480px;
+    margin-bottom: 80px;
+}
+#headingrev1{
+  
+    height: 20px;
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-left: 80px;
+}
+#headingrev2{
+  
+    height: 20px;
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-left: 60px;
+}
+#headingrev3{
+  
+    height: 20px;
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-left: 80px;
+}
+
+
+#paradive1{
+    font-size: 16px;
+    margin-left: 115px;
+}
+#paradive3{
+    font-size: 16px;
+    margin-left: 130px;
+}
+#paradive5{
+    font-size: 16px;
+    margin-left: 130px;
+}
+#paradive2{
+    border-top:1px solid red;
+    border-left:1px solid rgb(73,80,87);
+    border-right:1px solid rgb(73,80,87);
+    border-bottom:1px solid rgb(73,80,87);
+    font-size: 20px;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    padding: 10px;
+}
+#paradive4{
+    border-top:1px solid red;
+    border-left:1px solid rgb(73,80,87);
+    border-right:1px solid rgb(73,80,87);
+    border-bottom:1px solid rgb(73,80,87);
+    font-size: 20px;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    padding: 10px;
+}
+#paradive6{
+    border-top:1px solid red;
+    border-left:1px solid rgb(73,80,87);
+    border-right:1px solid rgb(73,80,87);
+    border-bottom:1px solid rgb(73,80,87);
+    font-size: 20px;
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    text-align: center;
+}
+.revdiv2{
+    border:1px solid rgb(51, 51,51);
+    width:30%;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+#clssdiv1{
+    display: inline-flex;
+    
+}
+#contactus{
+    width: 100%;
+    height: 858px;
+    background-color: rgb(51, 51,51);
+}
+#divcontact1{
+    width: 50%;
+    height:500px ;
+    padding-top: 50px;
+    padding-left: 10px;
+    float: left;
+   }  
+#divcontact2, h1{
+    font-size: 60px;
+}
+#divcontact2{
+    width: 47%;
+    padding-top: 80px;
+    padding-left: 680px;
+    margin-right: 1000px;
+    font-size: 20px;
+    border: 1px solid rgb(73,80,87);
+    padding-bottom: 90px;
+
+}
+#divcontact3{
+    width: 50%;
+    height: 200px;
+    padding-top: 40px;
+    text-align: center;
+    display: inline-flex;
+    padding-left: 10px;
+}
+.contacth3{
+    font-size: 30px;
+}
+.contactpara1{
+    padding-left: 10px;
+}
+.copyhr{
+    color: rgb(73,80,87);
+}
+#copyrights1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+img:hover{
+    opacity: 0.1;
+  }
+#img1{
+    opacity: 1;
+}

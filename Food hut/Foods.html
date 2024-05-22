@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foods</title>
+    <style>
+        *{
+            width: 90%;
+            background-color: rgb(51,51,51);
+            font-family:Cascadia Mono SemiLight;
+            color: white;
+        }
+        .foodscls1{
+            width:30%;
+            height:600px;
+            display: inline-flex;
+            border: 1px solid black;
+            text-align: left;
+            margin-left: 25px;
+        }
+        img{
+            width:111%;
+            height:250px;
+            float: left;
+        }
+        .foodsbut5{
+            width: 100px;
+            height: 80px;
+            margin-top:20px;
+            margin-left: 110px;
+            background-color: red;
+            color: white; 
+            font-size: 50px; 
+        }
+        h3{
+            font-size: 25px;
+            text-align: center; 
+            margin-left: 30px;           
+        }
+        p{
+            text-align: center; 
+            font-size: 17px;
+            margin-left: 30px; 
+
+        }
+
+    </style>
+</head>
+<body>
+    <div id="foodsdiv1" class="foodscls1">
+        <div>
+        <img src="blog-1.jpg" alt="foods">
+         <input type="button" value="$5" class="foodsbut5" onclick="food1()"><br>
+            <h3>Reiciendis Laborum</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa provident illum officiis fugit laudantium voluptatem sit iste delectus qui ex.</p>
+        </div>
+
+    </div>
+    <div id="foodsdiv2" class="foodscls1">
+        <div>
+        <img src="blog-2.jpg" alt="foods">
+            <input type="button" value="$10" class="foodsbut5" onclick="food1()">
+            <h3>Adipisci Totam</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa provident illum officiis fugit laudantium voluptatem sit iste delectus qui ex.</p>
+        </div>
+    </div>
+    <div id="foodsdiv3" class="foodscls1">
+        <div>
+        <img src="blog-3.jpg" alt="foods">
+    
+            <input type="button" value="$20" class="foodsbut5" onclick="food1()">
+            <h3>Dicta Deserunt</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa provident illum officiis fugit laudantium voluptatem sit iste delectus qui ex.</p>
+        </div>
+    </div>
+</body>
+<script>
+    function food1(){
+        a=confirm("Do you want to order thes");
+        if(a==true){
+            document.write("your order is taken");
+        }else{
+            
+        }
+    }
+
+</script>
+</html>
